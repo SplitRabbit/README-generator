@@ -2,6 +2,7 @@
 const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -68,38 +69,8 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(filelocation, data) {
   fs.writeFileSync(filelocation,
-`
-<h1 align="center">${data.projectTitle} 👋</h1>
-
-![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)<br />
-## Description
-🔍 ${data.description}
-## Table of Contents
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
-## Installation
-💾 ${data.Installation}
-## Usage
-💻 ${data.Usage}
-## License
-![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
-<br />
-This application is covered by the ${data.license} license. 
-## Contributing
-👪 ${data.ContributionGuidelines}
-## Tests
-✏️ ${data.TestInstructions}
-<br />
-:octocat: Find me on GitHub: [${data.username}](https://github.com/${data.username})<br />
-<br />
-✉️ Email me with any questions: ${data.email}<br /><br />
-_This README was generated with ❤️ by [README-generator](https://github.com/jpd61/README-generator) 🔥🔥🔥_
-  `)
+    generateMarkdown(data)
+    )
 }
 
 // TODO: Create a function to initialize app
