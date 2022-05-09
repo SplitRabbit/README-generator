@@ -1,8 +1,8 @@
 
-  <h1 align="center">potato  👋</h1>
+  <h1 align="center">Potato Maker 👋</h1>
 
   ## Description
-  🔍 
+  🔍 This project application makes potatoes for you to eat
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
@@ -12,9 +12,9 @@
   - [Tests](#tests)
   - [Questions](#questions)
   ## Installation
-  💾 fasd
+  💾 You need to install it using the Potatoe Installer
   ## Usage
-  💻 f
+  💻 Use the potatoes to cook the potatoes along with boiling water
   
     ##Licenses
     
@@ -27,12 +27,12 @@
     
   <br />
   ## Contributing
-  👪 asdf
+  👪 Please only contribute good potatoes
   ## Tests
-  ✏️ 
+  ✏️ Test your potatoe by sticking a fork in it to see if its cooked
   <br />
-  :octocat: Find me on GitHub: [](https://github.com/)<br />
+  :octocat: Find me on GitHub: [SplitRabbit](https://github.com/SplitRabbit)<br />
   <br />
-  ✉️ Email me with any questions: <br /><br />
+  ✉️ Email me with any questions: jeffreywang99@gmail.com<br /><br />
   _This README was generated with ❤️ by [README-generator](https://github.com/SplitRabbit/README-generator) _
     
