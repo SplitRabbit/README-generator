@@ -1,8 +1,8 @@
 
-  <h1 align="center">Potato Maker 👋</h1>
+  <h1 align="center">Employee Records 👋</h1>
 
   ## Description
-  🔍 This project application makes potatoes for you to eat
+  🔍 This project is used to make changes to a backend database titled company. It allows you to interact with your database without writing any Code within the commandline
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
@@ -12,27 +12,27 @@
   - [Tests](#tests)
   - [Questions](#questions)
   ## Installation
-  💾 You need to install it using the Potatoe Installer
+  💾 This application can be installed by using npm to install the required packages in the json folder as well as updating the files with your database credentials
   ## Usage
-  💻 Use the potatoes to cook the potatoes along with boiling water
+  💻 You can use this by using 'node index.js' within the root directory in the command line
   
     ##Licenses
     
-  ![badge](https://img.shields.io/badge/license-Apache-brightgreen)<br />
+  ![badge](https://img.shields.io/badge/license-Open-brightgreen)<br />
   
     
-    ![License Link](https://www.Apache.org/license)<br />
+    ![License Link](https://www.Open.org/license)<br />
     
-    This application is covered by the Apache license. 
+    This application is covered by the Open license. 
     
   <br />
   ## Contributing
-  👪 Please only contribute good potatoes
+  👪 Please make updates to this only when needed for data validation
   ## Tests
-  ✏️ Test your potatoe by sticking a fork in it to see if its cooked
+  ✏️ You can test this project by using the seed files within the db folder 
   <br />
   :octocat: Find me on GitHub: [SplitRabbit](https://github.com/SplitRabbit)<br />
   <br />
-  ✉️ Email me with any questions: jeffreywang99@gmail.com<br /><br />
+  ✉️ Email me with any questions: jeffreykunwang@gmail.com<br /><br />
   _This README was generated with ❤️ by [README-generator](https://github.com/SplitRabbit/README-generator) _
     
